@@ -49,7 +49,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center mt-3">
+        <div class="d-flex justify-content-center mt-3 wow fadeInUp" data-wow-delay="0.9s">
             <a href="<?php echo ($ROOT . '/layouts/blog') ?>"><button class="btn btn-primary">Explore More</button></a>
         </div>
     </div>

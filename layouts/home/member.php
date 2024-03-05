@@ -56,9 +56,9 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-center">
+        <!-- <div class="d-flex justify-content-center">
             <button class="btn btn-primary mt-4">Join Now</button>
-        </div>
+        </div> -->
     </div>
 </div>
 <!-- Team End -->

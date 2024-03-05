@@ -15,7 +15,7 @@
                 <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                 <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
                 <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a> -->
-                <a href="<?php echo ($ROOT . '/layouts/donation') ?> fw-bold"><button class="btn btn-danger">Donate Here</button></a>
+                <a href="<?php echo ($ROOT . '/layouts/donation') ?>"><button class="btn btn-danger">Donate Here</button></a>
             </div>
         </div>
     </div>

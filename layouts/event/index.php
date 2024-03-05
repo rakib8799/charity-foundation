@@ -14,8 +14,8 @@
                     <h1 class="fs-1 text-white animated slideInDown">Events</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item"><a href="">Home</a></li>
+                            <li class="breadcrumb-item"><a href="">Pages</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Events</li>
                         </ol>
                     </nav>
@@ -58,8 +58,8 @@
                             <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Trade Show <br><span><i class="fa fa-map-marker-alt text-primary me-2"></i>Bangabandhu International Conference Center, Dhaka, Bangladesh</span></p>
 
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <!-- <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <!-- <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
                             </div>
                         </div>
                     </div>
@@ -87,8 +87,8 @@
                             <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Trade Show <br><span><i class="fa fa-map-marker-alt text-primary me-2"></i>Bangabandhu International Conference Center, Dhaka, Bangladesh</span></p>
 
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <!-- <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <!-- <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
                             </div>
                         </div>
                     </div>
@@ -116,8 +116,8 @@
                             <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Trade Show <br><span><i class="fa fa-map-marker-alt text-primary me-2"></i>Bangabandhu International Conference Center, Dhaka, Bangladesh</span></p>
 
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <!-- <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <!-- <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
                             </div>
                         </div>
                     </div>
@@ -145,8 +145,8 @@
                             <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Trade Show <br><span><i class="fa fa-map-marker-alt text-primary me-2"></i>Bangabandhu International Conference Center, Dhaka, Bangladesh</span></p>
 
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <!-- <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <!-- <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
                             </div>
                         </div>
                     </div>
@@ -174,8 +174,8 @@
                             <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Trade Show <br><span><i class="fa fa-map-marker-alt text-primary me-2"></i>Bangabandhu International Conference Center, Dhaka, Bangladesh</span></p>
 
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <!-- <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <!-- <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
                             </div>
                         </div>
                     </div>
@@ -203,8 +203,8 @@
                             <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Trade Show <br><span><i class="fa fa-map-marker-alt text-primary me-2"></i>Bangabandhu International Conference Center, Dhaka, Bangladesh</span></p>
 
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <!-- <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <!-- <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a> -->
                             </div>
                         </div>
                     </div>

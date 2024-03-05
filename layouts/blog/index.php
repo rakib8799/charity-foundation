@@ -43,7 +43,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
                             </div>
                         </div>
                     </div>

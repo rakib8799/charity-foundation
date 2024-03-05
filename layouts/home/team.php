@@ -72,7 +72,7 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center wow fadeInUp" data-wow-delay="0.9s">
             <button class="btn btn-primary mt-4">Join Now</button>
         </div>
     </div>

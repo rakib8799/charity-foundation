@@ -95,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center mt-3">
+        <div class="d-flex justify-content-center mt-3 wow fadeInUp" data-wow-delay="0.9s">
             <a href="<?php echo ($ROOT . '/layouts/event') ?>"><button class="btn btn-primary">Other Events</button></a>
         </div>
     </div>
