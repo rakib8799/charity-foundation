@@ -10,10 +10,10 @@
             <div class="col-lg-6 d-flex align-items-center wow fadeInUp" data-wow-delay="0.3s">
                 <div class="row">
                     <div class="col">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                        <h1 class="mb-4">Welcome to <span class="text-primary">Baby Foundation</span></h1>
+                        <h6 class="section-title bg-white text-start text-dark pe-3">About Us</h6>
+                        <h4 class="mb-4 text-capitalize text-primary">Arfan Familys <br><span class="h2">Smiling Baby Foundation</span></h4>
                         <p class="mb-4">Arfan Family's Smiling Baby Foundation is a non profit foundation for distressed children. We work voluntary. There is no admin cost. 100% of your donation will go for the underprevilized children.</p>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="<?php echo ($ROOT . '/layouts/about') ?>">See More</a>
+                        <a class="btn-style" href="<?php echo ($ROOT . '/layouts/about') ?>">See More</a>
                     </div>
                 </div>
             </div>

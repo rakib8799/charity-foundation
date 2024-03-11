@@ -30,8 +30,8 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Blogs</h6>
-                <h1 class="mb-5">Latest Blogs</h1>
+                <h6 class="section-title bg-white text-center px-3">Blogs</h6>
+                <h1 class="mb-5 text-primary">Latest Blogs</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -43,7 +43,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn-style">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn-style">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn-style">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn-style">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             <h3 class="mb-0">Lorem ipsum dolor sit.</h3>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/event/details/?id=1') ?>" class="btn-style">Read More</a>
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@
 
     <?php include_once('../header.php') ?>
 
-    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+    <div class="container-fluid bg-primary mb-4 py-5 hero-header">
         <div class="container py-5">
             <div class="row justify-content-center py-5">
                 <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -29,27 +29,30 @@
 
     <div class="container-xxl py-5">
         <div class="container wow fadeInUp" data-wow-delay="0.1s">
-            <div class="d-flex justify-content-center">
-                <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/logo/1.png') ?>" alt="" style="object-fit: contain;">
-                <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/logo/2.png') ?>" alt="" style="width: 12vw; object-fit: contain;">
-                <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/logo/1.png') ?>" alt="" style="object-fit: contain;">
+            <div class="row g-4">
+                <div class="col-md-3 d-flex justify-content-center">
+                    <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/logo/logo-7.png') ?>" alt="">
+                </div>
+                <div class="col-md-9 d-flex justify-content-center">
+                    <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/logo/logo-3.png') ?>" alt="">
+                </div>
             </div>
-            <h2 class="mt-3 text-center text-primary">ARFAN FAMILYS SMILING BABY FOUNDATION</h2>
+            <h2 class="mt-3 text-center text-primary fw-bolder">ARFAN FAMILYS SMILING BABY FOUNDATION</h2>
         </div>
     </div>
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl">
         <div class="container">
-            <div class="row g-5">
+            <div class="row g-4">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100" src="<?php echo ($ROOT . '/assets/img/about.jpg') ?>" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h3 class="mb-4">For more than half a decade we have been working selflessly for helpless children</h3>
+                    <h6 class="section-title bg-white text-start pe-3">About Us</h6>
+                    <h3 class="mb-4 text-primary">For more than half a decade we have been working selflessly for helpless children</h3>
                     <p class="text-justify">
                         Arfan, a father who lost two daughters in early stage, founded SMILING BABY FOUNDATION. His vision is a world in which every child attains the right to survival, protection, development and participation.
                     </p>
@@ -71,20 +74,20 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Members</h6>
-                <h1 class="mb-5">Meet Our Members</h1>
+                <h6 class="section-title bg-white text-center px-3">Members</h6>
+                <h1 class="mb-5 text-primary">Meet Our Members</h1>
             </div>
-            <div class="row g-4">
+            <div class="row g-4 d-flex justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/team-2.jpg') ?>" alt="">
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <!-- <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                         <div class="text-center p-4">
                             <h5 class="mb-0">Full Name</h5>
                             <small>Designation</small>
@@ -96,11 +99,11 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/team-3.jpg') ?>" alt="">
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <!-- <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                         <div class="text-center p-4">
                             <h5 class="mb-0">Full Name</h5>
                             <small>Designation</small>
@@ -112,11 +115,11 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/team-4.jpg') ?>" alt="">
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <!-- <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                         <div class="text-center p-4">
                             <h5 class="mb-0">Full Name</h5>
                             <small>Designation</small>
@@ -132,20 +135,20 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Volunteer</h6>
-                <h1 class="mb-5">Meet Our Volunteer</h1>
+                <h6 class="section-title bg-white text-center px-3">Volunteer</h6>
+                <h1 class="mb-5 text-primary">Meet Our Volunteer</h1>
             </div>
-            <div class="row g-4">
+            <div class="row g-4 d-flex justify-content-center">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/team-1.jpg') ?>" alt="">
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <!-- <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                         <div class="text-center p-4">
                             <h5 class="mb-0">Full Name</h5>
                             <small>Designation</small>
@@ -157,11 +160,11 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/team-2.jpg') ?>" alt="">
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <!-- <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                         <div class="text-center p-4">
                             <h5 class="mb-0">Full Name</h5>
                             <small>Designation</small>
@@ -173,11 +176,11 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/team-3.jpg') ?>" alt="">
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <!-- <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                         <div class="text-center p-4">
                             <h5 class="mb-0">Full Name</h5>
                             <small>Designation</small>
@@ -189,11 +192,11 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/team-4.jpg') ?>" alt="">
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                        <!-- <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                         <div class="text-center p-4">
                             <h5 class="mb-0">Full Name</h5>
                             <small>Designation</small>
@@ -209,60 +212,49 @@
     <div class="container-xxl py-5 destination">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Activities</h6>
-                <h1 class="mb-5">Our Activities</h1>
+                <h6 class="section-title bg-white text-center px-3">Activities</h6>
+                <h1 class="text-primary">Our Activities</h1>
             </div>
             <div class="row g-4" id="images">
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div class="">
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/4.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/5.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
+                <div class="col" style="width: 30vw;">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/4.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/5.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Destination Start -->
 

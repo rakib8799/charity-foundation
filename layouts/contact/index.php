@@ -30,15 +30,15 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Contact Us</h6>
-                <h1 class="mb-5">Contact For Any Query</h1>
+                <h6 class="section-title bg-white text-center px-3">Contact Us</h6>
+                <h1 class="mb-5 text-primary">Contact For Any Query</h1>
             </div>
 
             <div class="row g-4">
                 <h5>Get In Touch</h5>
                 <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos</p>
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-center">Office in Australia</h5>
+                    <h5>Office in Australia</h5>
                     <div class="d-flex my-3 align-items-center">
                         <img src="<?php echo ($ROOT . '/assets/img/contact/1.webp') ?>" alt="" class="img-fluid w-25">
                     </div>
@@ -72,7 +72,7 @@
                     </div> -->
                 </div>
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-center">Office in Bangladesh</h5>
+                    <h5>Office in Bangladesh</h5>
                     <div class="d-flex my-3 align-items-center">
                         <img src="<?php echo ($ROOT . '/assets/img/contact/2.webp') ?>" alt="" class="img-fluid w-25">
                     </div>

@@ -1,6 +1,6 @@
 <div class="container-xxl mt-4">
     <div class="container">
-        <div class="row g-4 justify-content-center">
+        <div class="row g-4 d-flex justify-content-center">
             <?php $id = 1; ?>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="package-item">
@@ -10,7 +10,7 @@
                             texts.</p>
 
                         <div class="d-flex justify-content-start mb-2">
-                            <a href="<?php echo ($ROOT . '/layouts/donation') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Donate</a>
+                            <a href="<?php echo ($ROOT . '/layouts/donation') ?>" class="btn-style">Donate Now</a>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                             <span>Children in 2 countries</span>
                         </p>
                         <div class="d-flex justify-content-start mb-2">
-                            <a href="<?php echo ($ROOT . '/layouts/about') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="<?php echo ($ROOT . '/layouts/about') ?>" class="btn-style">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                             texts.</p>
 
                         <div class="d-flex justify-content-start mb-2">
-                            <a href="" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Join</a>
+                            <a href="" class="btn-style">Join Now</a>
                         </div>
                     </div>
                 </div>

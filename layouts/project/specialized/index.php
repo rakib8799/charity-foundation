@@ -77,8 +77,8 @@ if (isset($_POST['submit'])) {
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Specialized Project Details</h6>
-                <h1 class="mb-5">Our Specialized Project Details</h1>
+                <h6 class="section-title bg-white text-center px-3">Specialized Project Details</h6>
+                <h1 class="mb-5 text-primary">Our Specialized Project Details</h1>
             </div>
             <div class="row justify-content-center g-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="" style="width: 100vw;">
@@ -93,12 +93,12 @@ if (isset($_POST['submit'])) {
                                 <pre class="text-center">Poor kids shouldn't be deprived of modern education.
                                                 ___Arfan</pre>
                                 <p><?php echo $details; ?></p> -->
-                                <h1 class="mb-4">Specialized <span class="text-primary">Children Hospital</span></h1>
+                                <h1 class="mb-4 text-primary">Specialized <span class="">Children Hospital</span></h1>
                                 <p class="mb-4">Thousand of unprivileged, orphan, distressed, victim and street children will get full-free specialized medical treatment.</p>
-                                <p><span class="fw-bold text-danger">Place:</span> Balipara Road, Darirampur, Trishal, Mymensingh-2220, Bangladesh.</p>
-                                <p><span class="fw-bold text-danger">Beneficiaries:</span> Unprivileged, Orphan, Distressed, Victim and Street Children.</p>
-                                <p><span class="fw-bold text-danger">Deliverable:</span> Full Free Specialized Medical Treatment.</p>
-                                <p><span class="fw-bold text-danger">Estimated Budget:</span> AUD 3.25K</p>
+                                <p><span class="fw-bold">Place:</span> Balipara Road, Darirampur, Trishal, Mymensingh-2220, Bangladesh.</p>
+                                <p><span class="fw-bold">Beneficiaries:</span> Unprivileged, Orphan, Distressed, Victim and Street Children.</p>
+                                <p><span class="fw-bold">Deliverable:</span> Full Free Specialized Medical Treatment.</p>
+                                <p><span class="fw-bold">Estimated Budget:</span> AUD 3.25K</p>
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@ if (isset($_POST['submit'])) {
                         <p><label for="user_name">Name <span>*</span></label> <input id="user_name" name="user_name" type="text" size="30" maxlength="245" autocomplete="name" required="required" class="form-control" /></p>
                         <p><label for="user_email">Email <span>*</span></label> <input id="user_email" name="user_email" type="text" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required="required" class="form-control" /></p>
                         <p><label for="user_image">Profile Picture</label> <input type="file" name="user_image" id="user_image" required class="form-control"></p>
-                        <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='57' id='comment_post_ID' />
+                        <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit btn-style" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='57' id='comment_post_ID' />
                             <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
                         </p>
                     </form>

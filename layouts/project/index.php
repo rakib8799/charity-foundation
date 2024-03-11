@@ -31,8 +31,8 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Projects</h6>
-                <h1 class="mb-5">Our Specialized Projects</h1>
+                <h6 class="section-title bg-white text-center px-3">Projects</h6>
+                <h1 class="mb-3 text-primary">Our Specialized Projects</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -41,21 +41,21 @@
                             <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/about.jpg') ?>" alt="">
                         </div>
                         <div class="text-justify p-4">
-                            <h1 class="mb-4">Specialized <span class="text-primary">Children Hospital</span></h1>
+                            <h2 class="mb-4 text-primary">Specialized <span>Children Hospital</span></h2>
                             <p class="mb-4">Thousand of unprivileged, orphan, distressed, victim and street children will get full-free specialized medical treatment.</p>
-                            <p><span class="fw-bold text-danger">Place:</span> Balipara Road, Darirampur, Trishal, Mymensingh-2220, Bangladesh.</p>
-                            <p><span class="fw-bold text-danger">Beneficiaries:</span> Unprivileged, Orphan, Distressed, Victim and Street Children.</p>
-                            <p><span class="fw-bold text-danger">Deliverable:</span> Full Free Specialized Medical Treatment.</p>
-                            <p><span class="fw-bold text-danger">Estimated Budget:</span> AUD 3.25K</p>
+                            <p><span class="fw-bold">Place:</span> Balipara Road, Darirampur, Trishal, Mymensingh-2220, Bangladesh.</p>
+                            <p><span class="fw-bold">Beneficiaries:</span> Unprivileged, Orphan, Distressed, Victim and Street Children.</p>
+                            <p><span class="fw-bold">Deliverable:</span> Full Free Specialized Medical Treatment.</p>
+                            <p><span class="fw-bold">Estimated Budget:</span> AUD 3.25K</p>
                             <div class="d-flex justify-content-start mb-2">
-                                <a href="<?php echo ($ROOT . '/layouts/project/specialized') ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="<?php echo ($ROOT . '/layouts/project/specialized') ?>" class="btn-style">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mb-5">More Projects</h1>
+                <h1 class="mt-5 mb-3 text-primary">More Projects</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <?php
@@ -68,10 +68,10 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="package-item">
                                 <div class="overflow-hidden">
-                                    <img src="<?php echo ($ROOT . '/assets/img/project/' . $image) ?>" alt="<?php echo $image; ?>" class="img-fluid" style="height: 30vh; object-fit: contain;" />
+                                    <img src="<?php echo ($ROOT . '/assets/img/project/' . $image) ?>" alt="<?php echo $image; ?>" class="img-fluid" style="height: 30vh; width: 100%;" />
                                 </div>
                                 <div class="text-justify p-4">
-                                    <h4 class="mb-2 d-flex align-items-center" style="height: 7vh;"><?php echo $title; ?></h4>
+                                    <h5 class="mb-2 d-flex align-items-center" style="height: 7vh;"><?php echo $title; ?></h5>
                                     <p><?php if (strlen($details) < 100) {
                                             echo $details;
                                         } else {
@@ -79,7 +79,7 @@
                                         } ?>
                                     </p>
                                     <div class="d-flex justify-content-start mb-2">
-                                        <a href="<?php echo ($ROOT . '/layouts/project/details?id=' . $id) ?>" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                        <a href="<?php echo ($ROOT . '/layouts/project/details?id=' . $id) ?>" class="btn-style">Read More</a>
                                     </div>
                                 </div>
                             </div>

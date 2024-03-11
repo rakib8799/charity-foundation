@@ -1,21 +1,21 @@
 <!-- Topbar Start -->
-<div class="container-fluid bg-dark px-5 d-none d-lg-block">
+<div class="container-fluid px-5 d-none d-lg-block text-white" style="background: #080957">
     <div class="row gx-0">
         <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-            <div class="d-inline-flex align-items-center" style="height: 45px;">
-                <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>2A/ 242 South Terrace, Bankstown, NSW</small>
-                <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+61287390332</small>
-                <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@afsbf.org</small>
+            <div class="d-inline-flex align-items-center" style="height: 67px;">
+                <small class="me-3 "><i class="fa fa-map-marker-alt me-2"></i>2A/ 242 South Terrace, Bankstown, NSW</small>
+                <small class="me-3 "><i class="fa fa-phone-alt me-2"></i>+61287390332</small>
+                <small class=""><i class="fa fa-envelope-open me-2"></i>info@afsbf.org</small>
             </div>
         </div>
         <div class="col-lg-4 text-center text-lg-end">
-            <div class="d-inline-flex align-items-center" style="height: 45px;">
+            <div class="d-inline-flex align-items-center" style="height: 67px;">
                 <!-- <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
                 <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                 <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                 <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
                 <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a> -->
-                <a href="<?php echo ($ROOT . '/layouts/donation') ?>"><button class="btn btn-danger">Donate Here</button></a>
+                <a href="<?php echo ($ROOT . '/layouts/donation') ?>"><button class="btn-donate">Donate Here</button></a>
             </div>
         </div>
     </div>
@@ -27,9 +27,9 @@
 <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href="<?php echo ($ROOT . '/') ?>" class="navbar-brand p-0">
-            <div class="d-flex">
-                <img src="<?php echo ($ROOT . '/assets/img/logo/2.png') ?>" alt="SBF_logo">
-                <h4 class="ms-3 text-primary m-0">Arfan Familys <br> Smiling Baby Foundation</h4>
+            <div class="d-flex align-items-center">
+                <img src="<?php echo ($ROOT . '/assets/img/logo/logo-1.png') ?>" alt="SBF_logo">
+                <p class="ms-3 text-white m-0 text-uppercase fw-bold company_name"><span style="font-size: 14px;">Arfan Familys</span> <br> <span class="p">Smiling Baby Foundation</span></p>
             </div>
             <!-- <img src="img/logo.png" alt="Logo"> -->
         </a>
@@ -56,8 +56,8 @@
                     </div>
                 </div> -->
                 <a href="<?php echo ($ROOT . '/layouts/contact') ?>" class="nav-item nav-link <?php echo ($_SERVER['PHP_SELF']) == "$SHORT_ROOT/layouts/contact/index.php" ? 'active' : ''; ?> fw-bold">Contact Us</a>
-                <a href="<?php echo ($ROOT . '/layouts/donation') ?>" class="nav-item nav-link <?php echo ($_SERVER['PHP_SELF']) == "$SHORT_ROOT/layouts/donation/index.php" ? 'active' : ''; ?> fw-bold">Donate</a>
             </div>
             <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a> -->
+            <a href="<?php echo ($ROOT . '/layouts/donation') ?>" class="donate btn-donate">Donate Here</a>
         </div>
     </nav>

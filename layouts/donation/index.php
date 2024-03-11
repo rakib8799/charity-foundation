@@ -48,11 +48,44 @@ if (isset($_POST['submit'])) {
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Donation</h6>
-                <h1 class="mb-2">Donation For Any Query</h1>
+                <h6 class="section-title bg-white text-center px-3">Donation</h6>
+                <h1 class="mb-2 text-primary">Donation For Any Query</h1>
+            </div>
+            <div class="row g-4 mt-3 text-center">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5>Donations</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
+                            <h5>Peace</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-user text-primary mb-4"></i>
+                            <h5>Prayer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-cog text-primary mb-4"></i>
+                            <h5>Prevention</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row g-4">
-                <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/all/1.png') ?>" alt="">
                 <div class="col-md-9 wow fadeInUp" data-wow-delay="0.1s">
                     <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/payment/1.png') ?>" alt="SSLCommerz-Pay-With-logo-All-Size-05-1536x797.png">
                 </div>
@@ -69,7 +102,7 @@ if (isset($_POST['submit'])) {
                                 <option value="USD">US DOLLAR</option>
                             </select>
                         </div>
-                        <input type="submit" value="Donate" name="submit" class="btn btn-primary mt-3">
+                        <input type="submit" value="Donate" name="submit" class="btn-style mt-3" style="background: #ff6d02">
                     </form>
                 </div>
             </div>

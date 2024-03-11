@@ -31,92 +31,68 @@
     <div class="container-xxl py-5 destination">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Gallery</h6>
-                <h1 class="mb-5">Our Gallery</h1>
+                <h6 class="section-title bg-white text-center px-3">Gallery</h6>
+                <h1 class="text-primary">Our Gallery</h1>
             </div>
             <div class="row g-4" id="images">
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div class="">
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/4.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/5.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/4.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/5.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
-                    </div>
-                </div>
-                <div class="col-md-3 wow zoomIn" data-wow-delay="0.1s">
-                    <div>
-                        <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/4.webp') ?>" alt="" style="width: 30vw; height: 25vh;object-fit: cover;">
-                        <div class="bg-white text-primary fw-bold text-center">Title-1</div>
+                <div class="col" style="width: 30vw;">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/4.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/5.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/4.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/5.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/1.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/2.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/3.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
+                        <div class="col-lg-3 col-md-4 wow zoomIn mt-3" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="<?php echo ($ROOT . '/assets/img/gallery/4.webp') ?>" alt="" style="min-width: 100%; height: 25vh;object-fit: cover;">
+                            <h5 class="bg-white text-primary fw-bold text-center">Title-1</h5>
+                        </div>
                     </div>
                 </div>
             </div>
